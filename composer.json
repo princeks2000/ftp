@@ -1,0 +1,21 @@
+{
+    "name": "princeks2000/sftp",
+    "autoload": {
+        "psr-4": {
+            "Princeks2000\\Sftp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prince K S",
+            "email": "princeks2000@gmail.com"
+        }
+    ],
+    "description": "A PHP library for FTP and SFTP file upload and download",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "phpseclib/phpseclib": "^3.0"
+    }
+}
